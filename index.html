@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WeatherWear</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header" class="alt">
+                <h1>WeatherWear</h1>
+                <p>A simple Web application that provides some clothing advice dependent on the user's weather location.</p>
+            </header>
+
+            <!-- Nav -->
+            <!-- <nav id="nav">
+                <ul>
+                    <li><a href="#intro" class="active">Introduction</a></li>
+                    <li><a href="#first">First Section</a></li>
+                    <li><a href="#second">Second Section</a></li>
+                    <li><a href="#cta">Get Started</a></li>
+                </ul>
+            </nav> -->
+
+            <!-- Main -->
+            <div id="main">
+                <!-- Introduction -->
+                <section id="intro" class="main">
+                    <div class="spotlight">
+                        <div class="content">
+                            <header id="majorChange" class="major">
+                                <div id="leftHalf">
+                                    <h2 id="locationInput">Enter your location:</h2>
+                                    <h2 id="temperature"></h2>
+                                    <p id="feelsLike"></p>
+                                </div>
+                                <div id="rightHalf">
+                                    <p id="clothingTitle">Clothing Recommendations:</p>
+                                    <ul id="clothingList">
+
+                                    </ul>
+                                </div>
+                            </header>
+                            <h3 id="cityName"></h3>
+                            <form action="javascript:" onsubmit="getWeather()">
+                                <div class="col-6 col-12-xsmall">
+                                    <input id="city" type="text" name="cityName"  value="" placeholder="Enter the Name of Your City">
+                                    <!-- <button type="submit">Search</button> -->
+                                </div>
+                            </form>
+                            <!-- <ul class="actions">
+                                <li><a href="#" class="button">Locate Me</a></li>
+                            </ul> -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
